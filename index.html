@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>
+      Annual Compound Interest</h1>
+ <div class="main">
+  <div class="input">
+     <p style="color:red; display: none;" id="warning">Please see if any of the below inputs is unfilled.</p>
+    <p>Principal Amount : </p>₹<input type="number" id="principal"><br>
+    <p>Annual Rate of Interest :</p><input type="number" id="rate">%<br>
+    <p>Time : </p><input type="number" id="time">yrs<br>
+    <button id="btn">Calculate</button>
+</div>
+
+    <div id="output">
+      <p>Principal Amount : </p>
+      <p>Annual Rate of Interest :</p>
+      <p>Time : </p>
+      <h3>Compound Interest = <span>3000</span></h3>
+    </div>
+ </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

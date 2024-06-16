@@ -1,0 +1,49 @@
+.container{
+    width: 80%;
+    background-color: rgb(53, 52, 52);
+    padding: 50px;
+    margin: auto auto;
+    color: rgb(255,255,255);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgb(129, 127, 127);
+    
+
+}
+.main{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.container input{
+  border-radius: 20px;
+  height: 5vh;
+  width: 30vw;
+  padding: 10px;
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+}
+.container p{
+   font-size: 20px
+}
+#output{
+    padding: 30px;
+    background-color: bisque;
+    color: brown;
+    border-radius: 50px;
+    height: 50%;
+    margin: auto auto;
+    display: none;
+}
+#output h3{
+  font-size: 30px;
+}
+#btn{
+  color: white;
+  background-color: lightgreen;
+  padding: 10px 20px;
+  
+  
+}
